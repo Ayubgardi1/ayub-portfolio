@@ -1,0 +1,6 @@
+import {motion} from 'framer-motion';
+import {ArrowUpRight, Network, Terminal, Server, ShieldCheck, Code2} from 'lucide-react';
+export const icons={network:Network,terminal:Terminal,server:Server,shield:ShieldCheck,code:Code2};
+export function Reveal({children,className='',delay=0}){return <motion.div className={className} initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.12}} transition={{duration:.6,delay}}>{children}</motion.div>}
+export function SectionHeading({number,label,title,description}){return <Reveal className="section-heading"><div className="eyebrow"><span>{number} /</span> {label}</div><div className="heading-row"><h2>{title}</h2>{description&&<p>{description}</p>}</div></Reveal>}
+export function Action({href,children,primary=false,onClick,download}){const cls='action '+(primary?'primary':'secondary');return href?<motion.a whileHover={{y:-3}} whileTap={{scale:.97}} className={cls} href={href} download={download} {...(href.startsWith('http')?{target:'_blank',rel:'noopener noreferrer'}:{})}>{children}<ArrowUpRight size={17}/></motion.a>:<motion.button whileHover={{y:-3}} whileTap={{scale:.97}} className={cls} onClick={onClick}>{children}<ArrowUpRight size={17}/></motion.button>}
