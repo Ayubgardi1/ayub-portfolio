@@ -1,8 +1,10 @@
 export const portfolio = {
- name: 'Ayub Whsyar Ahmed',
+ name: 'Ayub Gardi',
  github: 'https://github.com/Ayubgardi1', email: 'ayubwshyar6@gmail.com', linkedin: 'https://www.linkedin.com/in/ayub-wshyar-03407a344/', phone: '+9647515338531', cv: '/ayub-whsyar-ahmed-cv.pdf',
  ccnaBadge: 'https://www.credly.com/badges/5695c8cc-0845-4d23-bf40-7ebe9d674d3c/public_url',
  ccnaIssued: '',
+ efsetCertificate: 'https://cert.efset.org/en/VUo5iB',
+ languages: [{name:'Kurdish',level:'Native'},{name:'English',level:'B2'},{name:'Arabic',level:'Good'}],
  introduction: 'I configure Ubuntu-based self-hosted services and remote access, design segmented Cisco networks, and practice network analysis in Linux labs. CCNA certified, with a focus on network engineering and system administration.',
  skills: [
  { title:'Networking', icon:'network', note:'Routing, switching, and segmentation.', items:['Cisco IOS','Routing & switching','VLANs','TCP/IP','Network troubleshooting'] },

@@ -119,3 +119,5 @@
 }
 @media(max-width:380px){.hero-disciplines{font-size:12px}.hero-disciplines span{margin:0 3px}.cert-card{padding:30px 18px;gap:20px}.cert-emblem{width:54px;height:54px}.cert-emblem svg{width:35px}.cert-status{font-size:7px;padding:7px}.verify-label{font-size:11px}.featured .project-body{padding:23px}}
 @media(prefers-reduced-motion:reduce){.node.core{animation:none}}
+
+.about-languages{margin-top:28px}.about-languages dl{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 0}.about-languages dl>div{flex:1;min-width:120px;padding:15px 18px;border:1px solid var(--border);border-radius:8px}.about-languages dt{font-weight:600;font-size:14px}.about-languages dd{margin:6px 0 0;color:var(--accent);font-size:13px}
